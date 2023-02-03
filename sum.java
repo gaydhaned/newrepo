@@ -1,8 +1,12 @@
 class a{
     public static void main(String[] args) {
-        int s=10;
-        int p=30;
-        System.out.println(s+p);
+    int sum=0;
+    for(int i=0;i<=500;i++)
+    {
+        sum=i+sum;
+        
+    }
+    System.out.println(sum);
 
     }
 }
